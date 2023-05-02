@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0440EE9E29F43595006BA9E8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440EE9D29F43595006BA9E8 /* Employee.swift */; };
 		046FC80629F3D03000AC1DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FC80529F3D03000AC1DC7 /* AppDelegate.swift */; };
 		046FC80829F3D03000AC1DC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FC80729F3D03000AC1DC7 /* SceneDelegate.swift */; };
 		046FC80A29F3D03000AC1DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FC80929F3D03000AC1DC7 /* ViewController.swift */; };
 		046FC80D29F3D03000AC1DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046FC80B29F3D03000AC1DC7 /* Main.storyboard */; };
 		046FC80F29F3D03200AC1DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046FC80E29F3D03200AC1DC7 /* Assets.xcassets */; };
 		046FC81229F3D03200AC1DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046FC81029F3D03200AC1DC7 /* LaunchScreen.storyboard */; };
+		0484EA5029F4271100B33714 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484EA4F29F4271100B33714 /* SecondViewController.swift */; };
+		0484EA5229F4279300B33714 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484EA5129F4279300B33714 /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0440EE9D29F43595006BA9E8 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		046FC80229F3D03000AC1DC7 /* ForwardDataUsingStructTwentyFourPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForwardDataUsingStructTwentyFourPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046FC80529F3D03000AC1DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046FC80729F3D03000AC1DC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		046FC80E29F3D03200AC1DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046FC81129F3D03200AC1DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046FC81329F3D03200AC1DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0484EA4F29F4271100B33714 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0484EA5129F4279300B33714 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				046FC80529F3D03000AC1DC7 /* AppDelegate.swift */,
 				046FC80729F3D03000AC1DC7 /* SceneDelegate.swift */,
 				046FC80929F3D03000AC1DC7 /* ViewController.swift */,
+				0440EE9D29F43595006BA9E8 /* Employee.swift */,
 				046FC80B29F3D03000AC1DC7 /* Main.storyboard */,
+				0484EA5129F4279300B33714 /* SecondTableViewCell.swift */,
+				0484EA4F29F4271100B33714 /* SecondViewController.swift */,
 				046FC80E29F3D03200AC1DC7 /* Assets.xcassets */,
 				046FC81029F3D03200AC1DC7 /* LaunchScreen.storyboard */,
 				046FC81329F3D03200AC1DC7 /* Info.plist */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0484EA5029F4271100B33714 /* SecondViewController.swift in Sources */,
+				0440EE9E29F43595006BA9E8 /* Employee.swift in Sources */,
+				0484EA5229F4279300B33714 /* SecondTableViewCell.swift in Sources */,
 				046FC80A29F3D03000AC1DC7 /* ViewController.swift in Sources */,
 				046FC80629F3D03000AC1DC7 /* AppDelegate.swift in Sources */,
 				046FC80829F3D03000AC1DC7 /* SceneDelegate.swift in Sources */,
